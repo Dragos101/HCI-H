@@ -1,0 +1,7 @@
+h2 {
+    border-style: dashed;
+    border-width: 3px;
+    border-color: black;
+    color: white;
+    background-color: black;
+}

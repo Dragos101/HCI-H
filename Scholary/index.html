@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>HCI 2022 Homework</title>
+    <link rel="stylesheet" href="css/scholarly.min.css">
+    <script src="js/scholarly.min.js"></script>
+</head>
+
+<body prefix="schema: http://schema.org">
+    <header>
+        <h1>HCI 2022 Homework</h1>
+    </header>
+    <div role="contentinfo">
+        <dl>
+            <dt>Authors</dt>
+            <dd>
+                <a href="https://github.com/Dragos101">Baciu Dragos</a>
+            </dd>
+            <dt>License</dt>
+            <dd>
+                <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+            </dd>
+        </dl>
+    </div>
+    <section typeof="sa:Abstract" id="abstract" role="doc-abstract">
+        <h2>Abstract</h2>
+        <p> This document will include my solution regarding the homework given.
+        </p>
+    </section>
+    <section id="introduction" role="doc-introduction">
+        <h2>Introduction</h2>
+        <p> Throughout the document you'll see project designs, sketches and wireframes. There will be no interactive prototypes.
+        </p>
+    </section>
+    <section id="interfata" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+        <h2>Interface</h2>
+        <section id="aspect" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h3>Aspect</h3>
+            
+            <figure id="interfata-main_menu">
+                <img src="images/main_menu.png" alt="main_menu">
+                <figcaption>1.Main menu</figcaption>
+            </figure>
+            <figure id="interfata-main_menu_settings">
+                <img src="images/main_menu_settings.png" alt="main_menu_settings">
+                <figcaption>2.Main menu settings applied</figcaption>
+            </figure>
+            <figure id="interfata-play">
+                <img src="images/play.png" alt="play">
+                <figcaption>3.Play</figcaption>
+            </figure>
+            <figure id="interfata-play-back">
+                <img src="images/back_button_game.png" alt="back_button_game">
+                <figcaption>4.Back button on play screen</figcaption>
+            </figure>
+            <figure id="interfata-profile">
+                <img src="images/profile.png" alt="profile">
+                <figcaption>5.Profile</figcaption>
+            </figure>
+            <figure id="interfata-profile-saved-c">
+                <img src="images/profile_saved_correct.png" alt="profile_saved_correct">
+                <figcaption>6.Profile saved correctly</figcaption>
+            </figure>
+            <figure id="interfata-profile-saved-inc">
+                <img src="images/profile_save_incorrect.png" alt="profile_save_incorrect">
+                <figcaption>7.Profile saved incorrectly</figcaption>
+            </figure>
+            <figure id="interfata-profile-back-without-save">
+                <img src="images/profile_back.png" alt="profile_back">
+                <figcaption>8.Profile page back without save</figcaption>
+            </figure>
+            <figure id="interfata-achievements">
+                <img src="images/achievement_list.png" alt="achievement_list">
+                <figcaption>9.Achievement list</figcaption>
+            </figure>
+            <figure id="interfata-achieved">
+                <img src="images/achieved.png" alt="achieved">
+                <figcaption>10.Achieved</figcaption>
+            </figure>
+            <figure id="interfata-notachieved">
+                <img src="images/not_achieved.png" alt="not_achieved">
+                <figcaption>11.Not achieved</figcaption>
+            </figure>
+            <figure id="interfata-button_interaction">
+                <img src="images/button_interaction.png" alt="button_interaction">
+                <figcaption>12.Button interaction</figcaption>
+            </figure>
+        </section>
+        <section id="detalii" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2>Details about interfaces</h2>
+            <section id="detalii-main_menu" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+                <h3>Details about main menu page</h3>
+                <p>The games main menu will be as simple as it looks. I wanted something minimal, not too croweded.
+                    It includes a play button, which starts the game, an achievement button that shows a list of all
+                    achievements completed and not completed, three settings buttons, an exit button and a profile
+                    button.
+                </p>
+            </section>
+            <section id="detalii-settings_main_menu" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+                <h3>Details about settings on main menu page</h3>
+                <p>In case we don't won't our phone to vibrate during gaming we can just click the second out of the three
+                    settings button. We can see that something will be disabled if it's colored with red and enabled if 
+                    it's colored in green.
+                </p>
+            </section>
+            <section id="detalii-profile" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+                <h3>Details about profile page</h3>
+                <p>It includes 3 fields such as name, email and details, a profile picture, the level of the current user and
+                    two buttons, one for save and the other to get back to main menu. I added 2 more images regarding two problems
+                    I consider mandatory to be discussed. Operating the buttons I found the following problems: saved incorrectly (when
+                    not all mandatory fields are completed correctly), pressing back button without save (in this case the user must 
+                    press the back button again, losing all the modifications, or he must save and get back to main menu).
+                </p>
+            </section>
+            <section id="detalii-achievement_list" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+                <h3>Details about achievement list</h3>
+                <p>This page includes all achievements you can possibly complete in this game. There will be 
+                    two types of achievements: completed and not completed; each of them having different styles, colors, fields.
+                </p>
+            </section>
+            <section id="detalii-button_interaction" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+                <h3>Details about button interaction</h3>
+                <p>I feel like giving some diversity to the desing would be great so when a user interacts with 
+                    a button it will have different effect (effects are being chosen from a list of available effects) 
+                </p>
+            </section>
+        </section>
+    </section>
+    <section id="examples concerning the QOC" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+        <h2>QOC</h2>
+        <section id="QOC-1" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2>QOC-1</h2>
+            <figure id="QOC-1">
+                <img src="images/QOC1.png" alt="QOC1">
+            </figure>
+        </section>
+        <section id="QOC-2" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2>QOC-2</h2>
+            <figure id="QOC-2">
+                <img src="images/QOC2.png" alt="QOC2">
+            </figure>
+        </section>
+        <section id="QOC-3" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2>QOC-3</h2>
+            <figure id="QOC-3">
+                <img src="images/QOC3.png" alt="QOC3">
+            </figure>
+        </section>
+    </section>
+    <section id="infrastructura" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+        <h2>Infrastructura</h2>
+        <p>
+            Aplicația este o aplicație scalabilă bazată pe microservicii și este alcătuită din următoarele componente:
+        </p>
+        <ul>
+            <li>Server web</li>
+            <li>Server api</li>
+            <li>Gateway</li>
+            <li>Naming Service</li>
+            <li>Programable Worker Service</li>
+            <li>Sql Preprocessing Service</li>
+            <li>Sql Processing Service</li>
+        </ul>
+        
+        
+        <section id="infrastructura-api" typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2>Server api</h2>
+            <p>
+                Serverul api este componenta cea mai intens folosită din aplicație. Aceasta serveste raspunsuri sub
+                forma json a cerințelor efectuate de codul JavaScript care rulează pe browserul clientului. Astfel
+                paginile încărcate devin dinamice și se permite trecerea către o aplicație de tip WPA ( web progresive
+                application).
+            </p>
+        </section>
+    </section>
+    <section typeof="sa:ReferenceList" id="biblio-references" role="doc-bibliography">
+        <h2>Referinţe</h2>
+        <ol>
+            <li property="schema:citation" role="doc-biblioentry" typeof="schema:ScholarlyArticle"  id="Scholarly-html"
+            resource="https://w3c.github.io/scholarly-html/">
+                <cite property="schema:name">
+                    <a href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a>
+                </cite>,
+                <span property="schema:author" typeof="schema:Person">
+                    <span property="schema:name">Tzviya Siegman (Wiley)</span>&amp;
+                    <span property="schema:name">Robin Berjon</span>
+                </span>
+            </li>
+        </ol>
+    </section>
+</body>
+
+</html>
